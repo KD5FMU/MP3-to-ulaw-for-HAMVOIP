@@ -8,4 +8,8 @@ cd /usr/local/sbin
 ```
 Then download the needed script file named mp3_convert.sh
 
+```
+wget https://github.com/KD5FMU/MP3-to-ulaw-for-HAMVOIP/blob/main/mp3_convert.sh
+```
+
 
