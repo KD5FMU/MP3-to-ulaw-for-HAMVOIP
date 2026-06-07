@@ -1,4 +1,5 @@
 #!/bin/bash
+# Created by Freddie McGuire - KD5FMU and OpenAI ChaptGPT
 # Convert audio files (e.g., .mp3) to Asterisk/HamVoIP -law raw (.ulaw/.ul) using ffmpeg
 # Output: 8000 Hz, mono, G.711 -law, headerless raw
 # Requires: ffmpeg
@@ -15,7 +16,7 @@ Usage:
   -o OUTPUT_DIR   Write outputs here (source tree mirrored). Default: alongside source files.
   --ext           Output extension: ulaw (default) or ul (both are headerless -law).
   --normalize N   Apply volume adjustment of N dB (e.g., -3.0). Default: none.
-  --trim          Trim leading/trailing silence (~ -45 dB, ò0.5 s).
+  --trim          Trim leading/trailing silence (~ -45 dB, Ã²0.5 s).
   --loudnorm      Use EBU R128 loudness normalization (slower, more consistent).
                   (If set, overrides --normalize.)
 
